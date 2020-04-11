@@ -1,0 +1,29 @@
+type Query {
+    event(id: String): Event
+    events: [Event]
+}
+
+type Event {
+    title: String
+    date: String
+    location: String
+    price: Int
+    imageLink: String
+    hyperLink: String
+    isValid: Boolean
+}
+
+input EventInput {
+    title: String
+    date: String
+    location: String
+    price: Int
+    imageLink: String
+    hyperLink: String
+    isValid: Boolean
+}
+
+type Mutation {
+    addEvent(event: EventInput): Event
+    removeEvent(id: String): Event
+}

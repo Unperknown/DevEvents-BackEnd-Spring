@@ -1,3 +1,10 @@
+![author](https://img.shields.io/badge/author-Unperknown-lightgrey.svg)
+![HitCount](http://hits.dwyl.io/Unperknown/DevEvents-Backend-Spring.svg)
+![Bitbucket open issues](https://img.shields.io/github/issues/Unperknown/DevEvents-Backend-Spring)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Unperknown/DevEvents-Backend-Spring)
+![GitHub](https://img.shields.io/github/license/Unperknown/DevEvents-Backend-Spring)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Unperknown/DevEvents-Backend-Spring)
+
 # Backend for DevEvents website (with Spring🌺 framework)
 
 ## 👪 기여자
@@ -23,4 +30,8 @@
 
 Kotlin + Spring Boilerplate를 레포지토리에 추가하였다.
 
-### 4/11 - GraphQL 적
+### 4/11 - GraphQL 적용
+
+Spring Boot에 GraphQL를 적용했다.
+
+<img src="doc/images/daily1.png" width="900" height="300">
