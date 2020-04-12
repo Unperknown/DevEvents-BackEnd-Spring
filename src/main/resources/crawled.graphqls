@@ -17,13 +17,13 @@ input CrawledInput {
     title: String
     date: String
     location: String
-    price: Int
+    price: String
     imageLink: String
     hyperLink: String
     isValid: Boolean
 }
 
 extend type Mutation {
-    addCrawled(event: CrawledInput): Crawled
-    removeCrawled(id: String): Crawled
+    addCrawleds(crawled: CrawledInput, requestor: Requestor): Crawled
+    fetchCrawledData: [Crawled]
 }
