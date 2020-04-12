@@ -1,0 +1,29 @@
+extend type Query {
+    crawled(id: String): Crawled
+    crawleds: [Crawled]
+}
+
+type Crawled {
+    title: String
+    date: String
+    location: String
+    price: String
+    imageLink: String
+    hyperLink: String
+    isValid: Boolean
+}
+
+input CrawledInput {
+    title: String
+    date: String
+    location: String
+    price: Int
+    imageLink: String
+    hyperLink: String
+    isValid: Boolean
+}
+
+extend type Mutation {
+    addCrawled(event: CrawledInput): Crawled
+    removeCrawled(id: String): Crawled
+}
