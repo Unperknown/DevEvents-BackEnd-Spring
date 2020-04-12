@@ -24,6 +24,6 @@ input CrawledInput {
 }
 
 extend type Mutation {
-    addCrawleds(crawled: CrawledInput, requestor: Requestor): Crawled
+    addCrawleds(crawled: CrawledInput, requestor: RequestorInput): Crawled
     fetchCrawledData: [Crawled]
 }

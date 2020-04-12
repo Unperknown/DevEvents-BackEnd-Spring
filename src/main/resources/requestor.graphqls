@@ -5,3 +5,7 @@ extend type Query {
 type Requestor {
     name: String
 }
+
+input RequestorInput {
+    name: String
+}
