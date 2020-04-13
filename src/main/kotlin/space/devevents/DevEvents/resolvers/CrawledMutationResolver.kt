@@ -19,7 +19,7 @@ class CrawledMutationResolver(val crawledRepository: CrawledRepository, val requ
         return crawled
     }
 
-    fun fetchedCrawledData(): List<Crawled> {
+    fun fetchCrawledData(): List<Crawled> {
         return emptyList()
     }
 }

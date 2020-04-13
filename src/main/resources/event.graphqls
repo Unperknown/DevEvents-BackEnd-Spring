@@ -25,5 +25,6 @@ input EventInput {
 
 type Mutation {
     addEvent(event: EventInput): Event
+    updateEvent(id: String, event: EventInput): Event
     removeEvent(id: String): Event
 }
